@@ -1,0 +1,73 @@
+body {
+  font-family: "Arial", sans-serif;
+  background: linear-gradient(to right, #6dd5fa, #2980b9);
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+.container {
+  text-align: center;
+  background: rgba(255, 255, 255, 0.2);
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.titleCard {
+  margin-bottom: 20px;
+}
+.titleCard img {
+  margin-top: 5px;
+}
+.title {
+  font-size: 2em;
+  font-weight: bold;
+}
+.title span {
+  color: #ffeb3b;
+}
+.desc {
+  font-size: 1.2em;
+  margin-top: -10px;
+}
+.card {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.inputBox {
+  padding: 10px;
+  border: none;
+  border-radius: 5px 0 0 5px;
+  width: 200px;
+}
+.btnSearch {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  background: #ffeb3b;
+  color: #2980b9;
+  font-weight: bold;
+  cursor: pointer;
+}
+.btnSearch:hover {
+  background: #fdd835;
+}
+.output {
+  margin-top: 20px;
+}
+.cityNameCard {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+.tempCard {
+  font-size: 3em;
+  font-weight: bold;
+  margin: 20px 0;
+}
+#loc-time {
+  font-size: 1em;
+  margin-top: -10px;
+}
